@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.center {
+  text-align: center;
+}
+.container {
+  /* background-color: aqua;  */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input {
+  background-color: rgb(56, 55, 55);
+  color: azure;
+  /* text-align: center; */
+  padding: 12px 0px;
+  font-size: 19px;
+  margin: 14px 0px;
+  border: solid 2px black;
+}
+.button {
+  background-color: rgb(56, 55, 55);
+  color: aliceblue;
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px 3px;
+  padding: 25px;
+}
+.button:hover{
+    color: rgb(230, 241, 76);
+}
+#toggle-btn{
+  font-size: 2rem;
+  cursor: pointer;
+}
+/*.dark is used for toggle button
+to make background black and text color white
+.light is used for toggle button
+to make background black and text color white*/
+.dark{
+  background-color: black;
+  color: white
+}
+.light{
+  background-color: white;
+  color: black;
+}
